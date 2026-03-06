@@ -11,7 +11,7 @@ const DemoBanner = () => {
             <Zap className="w-4 h-4 text-yellow-500 flex-shrink-0 animate-pulse" />
             <p className="text-xs sm:text-sm text-foreground">
               <span className="font-semibold">Este é um site de demonstração</span> criado pela LSB Business Intelligence.
-              <span className="hidden sm:inline"> Podemos criar um igual para seu negócio em 48h.</span>
+              <span className="hidden sm:inline"> Podemos criar um igual para seu negócio em 7 dias.</span>
             </p>
           </div>
           <a
