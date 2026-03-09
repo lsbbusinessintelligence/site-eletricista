@@ -79,7 +79,7 @@ const HeroSection = () => (
           </div>
         </motion.div>
 
-        {/* Depoimento com Avatar de Eletricista */}
+        {/* Avatar do Eletricista */}
         <motion.div
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
@@ -96,99 +96,29 @@ const HeroSection = () => (
             </div>
           </div>
           
-          {/* Avatar Grande do Eletricista */}
-          <div className="relative">
-            <svg width="300" height="360" viewBox="0 0 200 240" className="drop-shadow-2xl">
-              {/* Sombra no chão */}
-              <ellipse cx="100" cy="220" rx="60" ry="15" fill="#00000015"/>
-              
-              {/* Pernas */}
-              <rect x="75" y="180" width="20" height="50" fill="#1e40af" rx="10"/>
-              <rect x="105" y="180" width="20" height="50" fill="#1e40af" rx="10"/>
-              
-              {/* Botas de segurança */}
-              <ellipse cx="85" cy="230" rx="13" ry="9" fill="#422006"/>
-              <ellipse cx="115" cy="230" rx="13" ry="9" fill="#422006"/>
-              <rect x="78" y="222" width="14" height="3" fill="#78350f"/>
-              <rect x="108" y="222" width="14" height="3" fill="#78350f"/>
-              
-              {/* Tronco */}
-              <rect x="65" y="110" width="70" height="75" fill="#1e40af" rx="12"/>
-              
-              {/* Colete refletivo laranja */}
-              <path d="M 72 115 L 72 175 L 82 185 L 100 180 L 118 185 L 128 175 L 128 115 Z" fill="#fb923c"/>
-              <rect x="74" y="130" width="52" height="5" fill="#fbbf24" opacity="0.9"/>
-              <rect x="74" y="150" width="52" height="5" fill="#fbbf24" opacity="0.9"/>
-              <rect x="74" y="170" width="52" height="5" fill="#fbbf24" opacity="0.9"/>
-              
-              {/* Bolsos do colete */}
-              <rect x="78" y="140" width="18" height="12" fill="#ea580c" rx="2" opacity="0.7"/>
-              <rect x="104" y="140" width="18" height="12" fill="#ea580c" rx="2" opacity="0.7"/>
-              
-              {/* Braço direito segurando chave inglesa */}
-              <ellipse cx="145" cy="135" rx="13" ry="38" fill="#1e40af" transform="rotate(30 145 135)"/>
-              <circle cx="158" cy="118" r="11" fill="#f4a460"/>
-              
-              {/* Chave inglesa na mão */}
-              <rect x="155" y="108" width="4" height="22" fill="#71717a" rx="2" transform="rotate(20 157 119)"/>
-              <path d="M 156 106 L 150 102 L 152 108 Z" fill="#71717a"/>
-              <circle cx="168" cy="125" r="5" fill="#a1a1aa" opacity="0.8"/>
-              
-              {/* Braço esquerdo */}
-              <ellipse cx="55" cy="140" rx="13" ry="38" fill="#1e40af" transform="rotate(-20 55 140)"/>
-              <circle cx="48" cy="165" r="11" fill="#f4a460"/>
-              
-              {/* Cinto de ferramentas */}
-              <rect x="68" y="108" width="64" height="8" fill="#78350f" rx="2"/>
-              <rect x="85" y="110" width="6" height="14" fill="#a16207"/>
-              <rect x="105" y="110" width="6" height="14" fill="#a16207"/>
-              
-              {/* Pescoço */}
-              <rect x="86" y="95" width="28" height="18" fill="#f4a460" rx="6"/>
-              
-              {/* Cabeça */}
-              <circle cx="100" cy="75" r="34" fill="#f4a460"/>
-              
-              {/* Orelhas */}
-              <ellipse cx="68" cy="75" rx="7" ry="12" fill="#f4a460"/>
-              <ellipse cx="132" cy="75" rx="7" ry="12" fill="#f4a460"/>
-              
-              {/* Capacete de segurança azul */}
-              <path d="M 68 65 Q 68 38 100 36 Q 132 38 132 65 L 134 71 L 66 71 Z" fill="#2563eb"/>
-              <ellipse cx="100" cy="71" rx="34" ry="9" fill="#1e40af"/>
-              <rect x="66" y="68" width="68" height="4" fill="#1e40af"/>
-              
-              {/* Logo/Raio no capacete */}
-              <path d="M 96 48 L 98 54 L 95 54 L 97 60 L 92 54 L 95 54 Z" fill="#fbbf24"/>
-              
-              {/* Óculos de proteção */}
-              <rect x="76" y="70" width="48" height="14" fill="#ffffff" opacity="0.2" rx="7"/>
-              <circle cx="87" cy="77" r="9" fill="#ffffff" opacity="0.3" stroke="#64748b" strokeWidth="2"/>
-              <circle cx="113" cy="77" r="9" fill="#ffffff" opacity="0.3" stroke="#64748b" strokeWidth="2"/>
-              
-              {/* Olhos */}
-              <circle cx="87" cy="77" r="3.5" fill="#1e293b"/>
-              <circle cx="113" cy="77" r="3.5" fill="#1e293b"/>
-              <circle cx="88" cy="76" r="1.5" fill="#ffffff"/>
-              <circle cx="114" cy="76" r="1.5" fill="#ffffff"/>
-              
-              {/* Sobrancelhas */}
-              <path d="M 80 70 Q 87 67 94 69" stroke="#78350f" strokeWidth="2.5" fill="none" strokeLinecap="round"/>
-              <path d="M 106 69 Q 113 67 120 70" stroke="#78350f" strokeWidth="2.5" fill="none" strokeLinecap="round"/>
-              
-              {/* Nariz */}
-              <ellipse cx="100" cy="84" rx="5" ry="7" fill="#d97846"/>
-              
-              {/* Boca sorridente */}
-              <path d="M 86 93 Q 100 99 114 93" stroke="#78350f" strokeWidth="3" fill="none" strokeLinecap="round"/>
-              
-              {/* Barba leve */}
-              <path d="M 85 88 Q 100 92 115 88" stroke="#78350f" strokeWidth="1" fill="none" opacity="0.3"/>
-            </svg>
+          {/* Avatar do Eletricista com ilustração */}
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-100 rounded-3xl shadow-2xl p-8 max-w-md">
+            <div className="relative overflow-hidden rounded-2xl bg-white">
+              <img 
+                src="/images/avatar-eletricista.png" 
+                alt="Eletricista LSB" 
+                className="w-full h-auto"
+              />
+            </div>
             
-            <div className="text-center mt-2">
-              <p className="font-semibold text-primary-foreground text-sm">Carlos Silva</p>
-              <p className="text-xs text-primary-foreground/60">Eletricista - SP</p>
+            {/* Depoimento */}
+            <div className="mt-6 text-center">
+              <div className="flex justify-center gap-1 mb-3">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400 text-xl">⭐</span>
+                ))}
+              </div>
+              <p className="text-gray-800 font-semibold text-base mb-2">
+                "Eletricista experiente e confiável!"
+              </p>
+              <p className="text-gray-600 text-sm">
+                Cliente via LSB Intelligence
+              </p>
             </div>
           </div>
         </motion.div>
